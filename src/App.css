@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;600&display=swap');
+
+
+*, *::after, *::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: 'Poppins', sans-serif;
+}
+
+.bg {
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(2px);
+}
+
+
+.weatherInfo__container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bx-rotate-180 {
+  font-size: 100px;
+}
+
+.cardWeather__info {
+  width: 400px;
+  height: 200px;
+  border-radius: 20px;
+  background: rgba(299, 299, 299, 0.4);
+}
+
+.cardWeather__info-left {
+  position: absolute;
+  left: 0;
+  width: 200px;
+}
+
+.cardWeather__info-right {
+  position: absolute;
+  right: 0;
+  width: 200px;
+  color: #ffffff;
+  margin: 50px 0;
+}
+
+.city {
+  font-size: 1em;
+  text-align: center;
+  margin: 0;
+  text-shadow: 1px 1px 5px #707070;
+}
+
+.cardWeather__info-right ul{
+  list-style: none;
+}
+
+.icon {
+  width: 75%;
+  margin-bottom: -30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.weather-status {
+  color: #fff;
+  text-align: center;
+  margin-top: 0;
+}
+
+.degree {
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  background: rgba(299, 299, 299, 0.4);
+  border-color: rgba(299, 299, 299);
+  text-shadow: 1px 1px 5px #707070;
+  color: #fff;
+  cursor: pointer;
+}
+
+.bottom {
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  /* background: rgba(130, 130, 130, 0.4); */
+}
+
+.bottom div {
+  margin: 5px 10px 5px 10px;
+  text-align: center;
+  line-height: 100%;
+  font-size: 0.83em;
+  text-shadow: 1px 1px 5px #707070;
+}
+
+.bottom div span {
+  display: block;
+}
