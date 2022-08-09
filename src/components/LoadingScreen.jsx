@@ -1,5 +1,4 @@
 import React from 'react'
-import loader from '/Users/eurekapp/Programacion/Academlo/React/weather-app/src/assets/loading.svg'
 
 const LoadingScreen = () => {
   return (
